@@ -11,5 +11,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(plugin= {"pretty","html:src/reports/cucumber-reports","json:src/reports/cucumber-reports/reports.json","junit:src/reports/cucumber-reports/reports.xml"},
 monochrome=true,tags= {"@priyanka"})
 public class runCucumber {
+	
+
 
 }
